@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+tbody tr:nth-child(odd) {
+   background-color: #ccc;
+   z-index: -1;
+   
+}
+
+
+tbody td:nth-child(odd) {
+   background-color: lightblue;
+   z-index: -1;
+   
+}
+
+th, td{
+    padding: .5rem;
+}
+
+table{
+    overflow: hidden;
+   z-index: -1;
+   position: relative;
+    width:100%;
+    text-align: left;
+    border-collapse: collapse;
+   /*height: 10000px;*/
+    }
